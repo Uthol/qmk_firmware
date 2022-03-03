@@ -1,0 +1,7 @@
+MCU = STM32F401
+
+BOOTLOADER = stm32-dfu
+
+SERIAL_DRIVER = usart
+SPLIT_KEYBOARD = yes
+DEFAULT_FOLDER = UtholSplits/test
