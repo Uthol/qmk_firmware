@@ -1,6 +1,6 @@
 # Uthol Splits
 
-Custom handwired testing split key keyboard.
+Custom handwired testing split key keyboard. OLED, Encoders, etc come next.
 
 * Keyboard Maintainer: Uthol
 * Hardware Supported: Blackpill F401
