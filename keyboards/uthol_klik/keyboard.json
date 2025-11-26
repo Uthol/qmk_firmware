@@ -1,0 +1,47 @@
+{
+    "manufacturer": "uthol",
+    "keyboard_name": "uthol_klik",
+    "maintainer": "uthol",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "features": {
+        "bootmagic": true,
+        "extrakey": true,
+        "mousekey": true,
+        "rgblight": true
+    },
+    "usb": {
+        "device_version": "0.0.1",
+        "pid": "0x2326",
+        "vid": "0xFEED"
+    },
+    "ws2812": {
+        "pin": "GP16",
+        "driver": "vendor"
+    },
+    "rgblight": {
+        "led_count": 1,
+        "animations": {
+            "static_light": true
+        },
+        "default": {
+            "animation": "static_light"
+        }
+    },
+
+    "matrix_pins": {
+        "direct": [["GP0", "GP1"]]
+    },
+
+    "layout_aliases": {
+        "LAYOUT_all": "LAYOUT"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                { "label": "GP0", "matrix": [0, 0], "x": 0, "y": 0 },
+                { "label": "GP1", "matrix": [0, 1], "x": 1, "y": 0 }
+            ]
+        }
+    }
+}
